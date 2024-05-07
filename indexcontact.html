@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Designs Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="web dev 2.html"><img src="https://i.ibb.co/TrQg69f/ID-fix.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Indexabout.html">ABOUT</a></li>
+                    <li><a href="indexpackages.html">PACKAGES</a></li>
+                    <li><a href="indexblog.html">BLOG</a></li>
+                    <li><a href="indexcontact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Me</h1>
+    </section>
+
+
+    <!----- contact Me ----->
+
+
+    <section class="contact-me">
+       <!-- <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Bangalore, Karnataa, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday, 101AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>
+                        <h5>Info@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div> 
+        </div> -->
+        <section class="location-header">
+            <h1>A convienent way to contact me</h1>
+        </section>
+        <section class="location-header-bottom">
+            <p>Here is where you can find me.</p>
+        </section>
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185081.29547841576!2d-84.399165136804!3d30.462670690278696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ec8a5187124b53%3A0xebee077ad4fdb1f8!2sTallahassee%2C%20FL%2C%20USA!5e0!3m2!1sen!2sch!4v1714491702671!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-section-header">
+        <h1>Social Media.</h1>    
+        </section>
+
+<section id="contact" class="contact-section">
+
+    <div class="contact-section-links">
+        <div class="contact-links">
+            <!-- <a href="https://facebook.com/freecodecamp"
+               target="_black"
+               class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a> -->
+            <a id="profile-link"
+                href="https://github.com/TheMaker676"
+               target="_blank"
+               class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+               
+            <a href="https://twitter.com/Xasiac7"
+              target="_blank"
+              class="btn contact-details"
+              ><i class="fa-brands fa-square-x-twitter"></i> Twitter</a
+            >
+            <a href="mailto:Xasiac7@gmail.com" class="btn contact-details"
+              ><i class="fas fa-at"></i> Send a mail</a
+            >
+            <a href="tel:951-332-1403" class="btn contact-details"
+              ><i class="fas fa-mobile-alt"></i> Call me</a
+            >
+          </div>
+    </div>
+  </section>
+  </section>
+
+    <!------- Footer ------->
+
+    <section class="footer">
+        <h4>About</h4>
+        <p>I Design is dedicated to creating and enhancing websites with a focus on customer satisfaction and innovative design. The team at I Design is committed to bringing clients' visions to life with great care and attention to detail.</p>
+        <div class="icons">
+                <a  href="https://github.com/TheMaker676"
+                 target="_blank">
+                 <i class="fab fa-github"></i></a
+                 >
+                <a href="tel:951-332-1403" 
+                 ><i class="fas fa-mobile-alt"></i></a
+                 >
+                <a href="https://twitter.com/Xasiac7"
+                 target="_blank">
+                 <i class="fa-brands fa-square-x-twitter"></i></a
+                 >
+                <a href="mailto:Xasiac7@gmail.com"
+                 ><i class="fas fa-at"></i></a
+                 >
+        </div>
+        <p>Made by <a href="index.html"><img src="https://i.ibb.co/TrQg69f/ID-fix.png"></a>  I Design</p>
+    </section>
+
+     <!------ JavaScript for Toggle Menu ------>
+     <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
