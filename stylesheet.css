@@ -116,9 +116,6 @@ nav .fa-solid{
 }
 
 @media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
     .nav-links ul li{
         display: block;
     }
@@ -151,6 +148,7 @@ nav .fa-solid{
 }
 
 /*----- Sub-header -----*/
+
 .sub-header{
     height: 50vh;
     width: 100%;
@@ -331,12 +329,6 @@ nav .fa-solid{
 .testimonials-col .fa-star-half-stroke{
     color: rgba(66, 7, 230, 0.7);
 }
-@media(mamx-width: 00px){
-    .testimonials-col img{
-        margin-left: 0px;
-        margin-right: 15px;
-    }
-}
 
 /*------- call to action -------*/
 
@@ -375,11 +367,11 @@ nav .fa-solid{
     transition: 1s;
 }
 
-@media(max-width: 700px){
+/* @media(max-width: 700px){
     .cta h1{
         font-size: 24;
     }
-}
+} */
 
 /*------- about -------*/
 
@@ -572,12 +564,6 @@ p.email-clr {
 #blogForm button{
     margin: 10px 0;
     font-size: 20px;
-}
-
-@media(max-width:700px){
-    .sub-header h1{
-        font-size: 24px;
-    }
 }
 
 /*---- Contact Page ----*/
@@ -830,3 +816,18 @@ p.email-clr {
 .icons a{
     width: 300px;
 }
+
+.ender{
+    text-align: center;
+}
+
+@media (max-width: 28.75em) {
+    .footer p{
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .ender p{
+        text-align: center;
+    }
+  }
