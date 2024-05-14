@@ -115,7 +115,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 500px){
     .nav-links ul li{
         display: block;
     }
@@ -263,6 +263,18 @@ nav .fa-solid{
 .layer:hover p{
     bottom: 25%;
     opacity: 1;
+}
+
+@media(max-width: 500px){
+    .layer:hover h3{
+        bottom: 55%;
+        opacity: 1;
+    }
+
+    .layer:hover p{
+        bottom: 15%;
+        opacity: 1;
+    }
 }
 
 /*------- archetypes -------*/
@@ -475,7 +487,7 @@ h3{
 .package-col:hover{
     box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
 }
-@media(max-width: 700px){
+@media(max-width: 500px){
     .row{
         flex-direction: column;
     }
@@ -580,7 +592,7 @@ p.email-clr {
     padding: 0;
 }
   
-  @media (max-width: 700px) {
+  @media (max-width: 500px) {
     .contact-section-header > h2 {
       font-size: 4rem;
     }
@@ -815,7 +827,7 @@ p.email-clr {
     text-align: center;
 }
 
-@media (max-width: 700px) {
+@media(max-width: 700px) {
     .footer p{
         text-align: center;
         padding: 0px 20px;
