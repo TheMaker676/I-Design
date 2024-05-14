@@ -263,11 +263,17 @@ nav .fa-solid{
 .layer:hover p{
     bottom: 25%;
     opacity: 1;
+    line-height: 28px;
 }
 
 @media(max-width: 500px){
     .layer:hover h3{
         bottom: 55%;
+        opacity: 1;
+    }
+
+    .layer:hover h2{
+        bottom: 48%;
         opacity: 1;
     }
 
